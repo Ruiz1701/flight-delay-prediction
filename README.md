@@ -46,21 +46,11 @@ This project uses machine learning to predict whether a flight will be delayed b
 
 ## Results
 
-- Developed predictive machine learning models
-- Compared model performance using evaluation metrics
-- Identified important factors contributing to flight delays
+Several machine learning models were evaluated to predict flight delays, including SGD, Random Forest, Gradient Boosting, and XGBoost.
 
----
+### Key Findings
 
-## Future Improvements
-
-- Hyperparameter tuning
-- Additional feature engineering
-- Larger datasets
-- Deployment as a web application
-
----
-
-## Author
-
-Alexander Ruiz
+- Compared multiple machine learning algorithms for flight delay prediction.
+- XGBoost provided the best balance between accuracy and recall.
+- Threshold tuning reduced false delay predictions.
+- Developed a Gradio application that provides real-time flight delay predictions.
